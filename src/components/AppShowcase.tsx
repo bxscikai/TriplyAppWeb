@@ -28,18 +28,18 @@ const AppShowcase = () => {
   ];
 
   return (
-    <section id="app-showcase" className="py-24 bg-white">
+    <section id="app-showcase" className="py-16 md:py-20 pt-28 md:pt-32 bg-gradient-to-b from-blue-50 to-white">
       <div className="section-container">
-        <div className="text-center mb-16 animate-on-scroll opacity-0">
+        <div className="text-center mb-10 animate-on-scroll opacity-0">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">See Triply in Action</h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-            Experience the simplicity and power of managing your travel with Triply.
-            Here's a glimpse of what our app looks like.
+            Organize your travels with power and simplicity.
+            Here's what the app looks like:
           </p>
         </div>
 
         {/* Desktop View - Large Side-by-Side Screenshots */}
-        <div className="hidden lg:flex items-center justify-center gap-8 mb-12">
+        <div className="hidden lg:flex items-center justify-center gap-8 mb-10">
           {screenshots.map((screenshot, index) => (
             <div 
               key={index}
@@ -104,7 +104,7 @@ const AppShowcase = () => {
           </Carousel>
         </div>
         
-        <div className="mt-16 text-center animate-on-scroll opacity-0">
+        <div className="mt-8 text-center animate-on-scroll opacity-0">
           <a 
             href="#features" 
             className="rounded-full bg-triply-600 text-white px-8 py-4 font-semibold shadow-lg hover:shadow-triply-500/25 transition-all duration-300 button-animation"

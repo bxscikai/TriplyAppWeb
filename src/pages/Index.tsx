@@ -36,9 +36,9 @@ const Index = () => {
   return (
     <div className="relative overflow-hidden">
       <Navbar />
+      <AppShowcase />
       <Hero />
       <Features />
-      <AppShowcase />
       
       {/* About Section */}
       <section id="about" className="py-24 bg-white">
