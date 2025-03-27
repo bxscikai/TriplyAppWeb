@@ -37,9 +37,8 @@ const Index = () => {
     <div className="relative overflow-hidden">
       <Navbar />
       <AppShowcase />
-      <Hero />
       <Features />
-      
+
       {/* About Section */}
       <section id="about" className="py-24 bg-white">
         <div className="section-container">
@@ -47,11 +46,11 @@ const Index = () => {
             <div className="lg:w-1/2 animate-on-scroll opacity-0">
               <h2 className="text-3xl md:text-4xl font-bold mb-6">Why Triply?</h2>
               <p className="text-lg text-muted-foreground mb-6">
-                Born from our own travel frustrations, Triply is designed by travelers, for travelers. 
+                Born from our own travel frustrations, Triply is designed by travelers, for travelers.
                 We've combined the essential tools you need for a seamless journey, all in one beautiful app.
               </p>
               <p className="text-lg text-muted-foreground mb-6">
-                Our mission is to remove the stress from travel planning and management, 
+                Our mission is to remove the stress from travel planning and management,
                 so you can focus on what matters most - experiencing the world.
               </p>
               <div className="flex flex-wrap gap-4">
@@ -93,9 +92,9 @@ const Index = () => {
               <div className="relative">
                 <div className="absolute -inset-4 rounded-3xl bg-gradient-to-r from-triply-200 to-triply-100 blur-xl opacity-70"></div>
                 <div className="relative">
-                  <img 
-                    src="https://images.unsplash.com/photo-1436491865332-7a61a109cc05?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80" 
-                    alt="Travel with Triply" 
+                  <img
+                    src="https://images.unsplash.com/photo-1436491865332-7a61a109cc05?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80"
+                    alt="Travel with Triply"
                     className="rounded-2xl shadow-xl w-full h-auto object-cover"
                     style={{ maxHeight: "500px" }}
                   />
@@ -105,7 +104,7 @@ const Index = () => {
           </div>
         </div>
       </section>
-      
+
       <ContactSection />
       <Footer />
     </div>

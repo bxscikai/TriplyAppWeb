@@ -1,6 +1,6 @@
 
 import React from "react";
-import { Plane, Globe, Map, Calendar, Ticket, User } from "lucide-react";
+import { Plane, Globe, Map, Calendar, Ticket, User, Download } from "lucide-react";
 import GlassCard from "./GlassCard";
 import { cn } from "@/lib/utils";
 
@@ -13,7 +13,7 @@ interface FeatureCardProps {
 }
 
 const FeatureCard = ({ title, description, icon, className, delay = 0 }: FeatureCardProps) => (
-  <GlassCard 
+  <GlassCard
     className={cn(
       "opacity-0",
       className
@@ -35,7 +35,7 @@ const Features = () => {
   const features = [
     {
       title: "Flight Sync",
-      description: "Effortlessly sync and manage all your flight details in one place for easy access.",
+      description: "Effortlessly sync and manage all your flight details in one place for easy access with Google Calendar integration.",
       icon: <Plane className="h-6 w-6" />,
       delay: 0.1
     },
@@ -47,13 +47,13 @@ const Features = () => {
     },
     {
       title: "Visa Checker",
-      description: "Instantly verify visa requirements based on your nationality and destination.",
+      description: "Instantly verify visa requirements based on your nationalities and destination.",
       icon: <Ticket className="h-6 w-6" />,
       delay: 0.3
     },
     {
       title: "Multiple Passports",
-      description: "Manage multiple nationalities and see the best passport option for each destination.",
+      description: "Track and view countries you have visited.",
       icon: <User className="h-6 w-6" />,
       delay: 0.4
     },
@@ -64,24 +64,24 @@ const Features = () => {
       delay: 0.5
     },
     {
-      title: "Interactive Maps",
-      description: "Explore interactive maps with points of interest and personalized recommendations.",
-      icon: <Map className="h-6 w-6" />,
+      title: "Offline First",
+      description: "Explore information even when you're offline.",
+      icon: <Download className="h-6 w-6" />,
       delay: 0.6
     }
   ];
-  
+
   return (
     <section id="features" className="relative py-24 bg-gradient-to-b from-white to-blue-50">
       <div className="section-container">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-4 animate-fade-in">Everything You Need in One App</h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto animate-fade-in" style={{ animationDelay: "0.1s" }}>
-            Triply brings together all the essential tools for modern travelers, 
+            Triply brings together all the essential tools for modern travelers,
             making your journey smoother from planning to return.
           </p>
         </div>
-        
+
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {features.map((feature, index) => (
             <FeatureCard

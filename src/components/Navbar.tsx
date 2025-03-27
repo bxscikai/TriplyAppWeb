@@ -38,7 +38,7 @@ const Navbar = () => {
     >
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         <a href="#" className="flex items-center space-x-2">
-          <Plane className="h-8 w-8 text-triply-600" />
+          <img src="/triply_appicon.png" alt="Triply Logo" className="h-8 w-8" />
           <span className="text-2xl font-semibold bg-gradient-to-r from-triply-600 to-triply-400 bg-clip-text text-transparent">
             Triply
           </span>
