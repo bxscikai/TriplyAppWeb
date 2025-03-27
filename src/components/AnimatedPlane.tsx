@@ -1,6 +1,6 @@
 
 import React from "react";
-import { Airplane } from "lucide-react";
+import { Plane } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 interface AnimatedPlaneProps {
@@ -26,7 +26,7 @@ const AnimatedPlane = ({
         animationDelay: `${delay}s`,
       }}
     >
-      <Airplane 
+      <Plane 
         size={size} 
         color={color} 
         className="transform -rotate-12" 
