@@ -21,7 +21,7 @@ const Footer = () => {
               Your all-in-one travel companion. Sync flights, explore destinations,
               and travel smarter with Triply.
             </p>
-            <div className="flex space-x-4 mt-6">
+            {/* <div className="flex space-x-4 mt-6">
               <a
                 href="#"
                 className="h-10 w-10 rounded-full bg-gray-100 flex items-center justify-center text-gray-600 transition-colors hover:bg-triply-100 hover:text-triply-600"
@@ -43,7 +43,7 @@ const Footer = () => {
               >
                 <Github className="h-5 w-5" />
               </a>
-            </div>
+            </div> */}
           </div>
 
           <div>

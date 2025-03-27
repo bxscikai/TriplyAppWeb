@@ -7,26 +7,26 @@ import { Globe, Map, Plane } from "lucide-react";
 const AppShowcase = () => {
   const screenshots = [
     {
-      img: "/lovable-uploads/Simulator Screenshot - iPhone 16 - 2025-03-26 at 19.47.26.png",
+      img: "/screenshots/Simulator Screenshot - iPhone 16 - 2025-03-26 at 19.47.26.png",
       title: "See Your Trips",
       description: "View all your upcoming flights in one place with seamless Google Calendar integration",
       icon: <Plane className="h-5 w-5" />
     },
     {
-      img: "/lovable-uploads/Simulator Screenshot - iPhone 16 - 2025-03-26 at 19.11.06.png",
+      img: "/screenshots/Simulator Screenshot - iPhone 16 - 2025-03-26 at 19.11.06.png",
       title: "Explore Countries & Festivals",
       description: "Discover countries and cultural festivals around the world",
       icon: <Map className="h-5 w-5" />
     },
     {
-      img: "/lovable-uploads/Simulator Screenshot - iPhone 16 - 2025-03-26 at 19.09.57.png",
+      img: "/screenshots/Simulator Screenshot - iPhone 16 - 2025-03-26 at 19.09.57.png",
       title: "Visa Requirements Checker",
       description: "Check visa requirements for destinations based on your passport nationalities",
       icon: <Globe className="h-5 w-5" />
     },
 
     {
-      img: "/lovable-uploads/Simulator Screenshot - iPhone 16 - 2025-03-26 at 19.49.41.png",
+      img: "/screenshots/Simulator Screenshot - iPhone 16 - 2025-03-26 at 19.49.41.png",
       title: "Record countries you have visited",
       description: "Keep track of your travel history and share it with friends",
       icon: <Map className="h-5 w-5" />
