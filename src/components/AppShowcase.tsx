@@ -9,25 +9,25 @@ const AppShowcase = () => {
     {
       img: "/screenshots/Simulator Screenshot - iPhone 16 - 2025-03-26 at 19.47.26.png",
       title: "See Your Trips",
-      description: "View all your upcoming flights in one place with seamless Google Calendar integration",
+      description: "View all your upcoming flights with seamless Google integration",
       icon: <Plane className="h-5 w-5" />
     },
     {
-      img: "/screenshots/Simulator Screenshot - iPhone 16 - 2025-03-26 at 19.11.06.png",
-      title: "Explore Countries & Festivals",
+      img: "/screenshots/Simulator Screenshot - iPhone 16 - 2025-03-26 at 20.30.33.png",
+      title: "Explore Festivals & Tips",
       description: "Discover countries and cultural festivals around the world",
       icon: <Map className="h-5 w-5" />
     },
     {
       img: "/screenshots/Simulator Screenshot - iPhone 16 - 2025-03-26 at 19.09.57.png",
-      title: "Visa Requirements Checker",
-      description: "Check visa requirements for destinations based on your passport nationalities",
+      title: "Check Visa Requirements",
+      description: "Check visa requirements for countries based on your nationalities",
       icon: <Globe className="h-5 w-5" />
     },
 
     {
       img: "/screenshots/Simulator Screenshot - iPhone 16 - 2025-03-26 at 19.49.41.png",
-      title: "Record countries you have visited",
+      title: "Track Visited Countries",
       description: "Keep track of your travel history and share it with friends",
       icon: <Map className="h-5 w-5" />
     }
@@ -93,7 +93,7 @@ const AppShowcase = () => {
                     <div className="h-8 w-8 rounded-full bg-triply-100 flex items-center justify-center text-triply-600 mr-2">
                       {screenshot.icon}
                     </div>
-                    <h3 className="font-semibold text-lg">{screenshot.title}</h3>
+                    <h3 className="font-semibold text-md">{screenshot.title}</h3>
                   </div>
                   <p className="text-muted-foreground text-sm">{screenshot.description}</p>
                 </div>
