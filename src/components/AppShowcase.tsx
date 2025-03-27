@@ -35,7 +35,7 @@ const AppShowcase = () => {
 
   return (
     <section id="app-showcase" className="py-2 md:py-3 bg-gradient-to-b from-blue-50 to-white">
-        <div className="section-container z-10 text-center fade-in-sequence">
+        <div className="section-container z-10 text-center fade-in-sequence pb-0 md:pb-6">
         <div className="inline-block mb-3 px-3 py-1 rounded-full bg-triply-100 text-triply-800 font-medium text-sm animate-fade-in">
           <Plane className="inline-block w-4 h-4 mr-1" /> Travel Smarter, Not Harder
         </div>
@@ -104,20 +104,20 @@ const AppShowcase = () => {
 
         {/* Mobile View - Carousel */}
         <div className="lg:hidden">
-          <Carousel className="w-full max-w-xs mx-auto">
+          <Carousel className="w-[60%] mx-auto">
             <CarouselContent>
               {screenshots.map((screenshot, index) => (
                 <CarouselItem key={index}>
-                  <Card className="border-none bg-transparent h-[650px]">
-                    <CardContent className="flex flex-col items-center p-0 h-full">
-                      <div className="overflow-hidden rounded-xl shadow-lg mb-4">
+                  <Card className="border-none bg-transparent">
+                    <CardContent className="flex flex-col items-center p-0">
+                      <div className="w-full overflow-hidden rounded-xl shadow-lg mb-4">
                         <img
                           src={screenshot.img}
                           alt={screenshot.title}
-                          className="h-[500px] w-full object-cover object-top"
+                          className="w-full object-contain max-h-[600px]"
                         />
                       </div>
-                      <div className="text-center p-4 flex-1">
+                      <div className="text-center p-4 flex-1 w-full">
                         <div className="flex items-center justify-center mb-2">
                           <div className="h-8 w-8 rounded-full bg-triply-100 flex items-center justify-center text-triply-600 mr-2">
                             {screenshot.icon}
