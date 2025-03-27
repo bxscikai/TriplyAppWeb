@@ -122,6 +122,16 @@
   .fade-in-sequence > *:nth-child(5) {
     animation-delay: 0.8s;
   }
+  
+  .animate-on-scroll {
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+    transform: translateY(20px);
+  }
+  
+  .animate-on-scroll.animate-fade-in {
+    opacity: 1 !important;
+    transform: translateY(0) !important;
+  }
 }
 
 @keyframes fade-in {
@@ -132,4 +142,9 @@
 @keyframes float {
   0%, 100% { transform: translateY(0); }
   50% { transform: translateY(-10px); }
+}
+
+@keyframes plane-fly {
+  0% { transform: translateX(-100px); }
+  100% { transform: translateX(calc(100vw + 100px)); }
 }

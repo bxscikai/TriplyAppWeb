@@ -3,6 +3,7 @@ import React, { useEffect } from "react";
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
 import Features from "../components/Features";
+import AppShowcase from "../components/AppShowcase";
 import ContactSection from "../components/ContactSection";
 import Footer from "../components/Footer";
 
@@ -37,6 +38,7 @@ const Index = () => {
       <Navbar />
       <Hero />
       <Features />
+      <AppShowcase />
       
       {/* About Section */}
       <section id="about" className="py-24 bg-white">
